@@ -23,8 +23,7 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
-  inputs:
-    restoreSolution: '$(solution)'
+
 
 - task: VSBuild@1
   inputs:
